@@ -11,8 +11,8 @@ const fetchUser=require("../middleware/fetchUser");
 // for accessing the env file 
 require('dotenv').config({path: '.env'})
 
-// const jwt_secret = process.env.JWT_SECURITY;
-const jwt_secret = "secret@password#p$9a$7r$3i$5c$6h$9a$2y$626";
+const jwt_secret = process.env.JWT_SECURITY;
+// const jwt_secret = "secret@password#p$9a$7r$3i$5c$6h$9a$2y$626";
 
 const router = express.Router();
 
